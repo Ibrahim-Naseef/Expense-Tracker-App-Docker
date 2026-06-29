@@ -61,7 +61,7 @@ cd Expense-Tracker-App-Docker
 
 ### 4. Build and Run with Docker Compose
 ```bash
-docker-compose up -d
+docker compose up -d --build
 ```
 
 ### 5. Verify the Deployment
