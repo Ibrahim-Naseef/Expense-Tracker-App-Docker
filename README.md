@@ -56,7 +56,7 @@ newgrp docker
 ### 3. Clone the Repository
 ```bash
 git clone https://github.com/Ibrahim-Naseef/Expense-Tracker-App-Docker.git
-cd Docker-Web-App
+cd Expense-Tracker-App-Docker
 ```
 
 ### 4. Build and Run with Docker Compose
