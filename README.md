@@ -46,16 +46,16 @@ ssh -i your-key.pem ubuntu@<EC2_PUBLIC_IP>
 
 ### 2. Update System and Install Docker
 ```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install -y docker.io docker-compose-plugin git
-sudo systemctl enable --now docker
+sudo apt-get update
+sudo apt-get install docker.io
+sudo apt-get install docker-compose-v2
 sudo usermod -aG docker $USER
 newgrp docker
 ```
 
 ### 3. Clone the Repository
 ```bash
-git clone https://github.com/Ibrahim-Naseef/Docker-Web-App.git
+git clone https://github.com/Ibrahim-Naseef/Expense-Tracker-App-Docker.git
 cd Docker-Web-App
 ```
 
