@@ -61,7 +61,7 @@ cd Docker-Web-App
 
 ### 4. Build and Run with Docker Compose
 ```bash
-docker compose up -d
+docker-compose up -d
 ```
 
 ### 5. Verify the Deployment
@@ -106,13 +106,13 @@ http://<EC2_PUBLIC_IP>:8080
 docker ps
 
 # View container logs
-docker compose logs -f
+docker-compose logs -f
 
 # Stop all services
-docker compose down
+docker-compose down
 
 # Rebuild and restart
-docker compose up -d --build
+docke-compose up -d --build
 ```
 
 ## AWS Security Best Practices
